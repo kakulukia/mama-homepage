@@ -36,8 +36,11 @@
     .black-bar.text-xs-center.theme--dark
       v-container.py-0
         v-layout(row justify-center align-center wrap)
-          v-flex(xs12 md6).affe
-          v-flex.form.pa-4(xs12 md6)
+          v-flex.affe(xs12 md6 align-self-end)
+          v-flex(xs12 md6 v-if="sent")
+            v-layout.done(align-center justify-center)
+              div Danke! Wir melden uns schnellstmöglich bei Ihnen.
+          v-flex.form.pa-4(xs12 md6 v-if="!sent")
             h2 Kontakt
             v-form(v-model="valid")
 
@@ -68,7 +71,7 @@
                     required dark color="primary")
                 v-flex.form.px-4(xs12)
                   v-btn.theme--dark(
-                    :disabled="valid"
+                    :disabled="!valid"
                     @click="submit") Senden
 </template>
 
@@ -76,21 +79,43 @@
 export default {
   data: () => ({
     valid: true,
+    sent: false,
     name: '',
     subject: '',
     message: '',
     notEmpty: [
-      v => !!v || 'Wird benötigt'
+      v => !!v || 'Bitte alle Felder ausfüllen!'
     ],
     email: '',
     emailRules: [
       v => !!v || 'E-mail is required',
-      v => /.+@.+\..+/.test(v) || 'E-Mail-Adresse ungültig'
+      v => /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}/.test(v) || 'E-Mail-Adresse ungültig'
     ]
   }),
   methods: {
     submit: function () {
       console.log("submitting ..")
+
+      this.$axios.$post('/api/contact', {
+        name: this.name,
+        email: this.email,
+        subject: this.subject,
+        message: this.message
+      }).then((response) => {
+        console.log(response)
+        this.sent = true
+      }).catch((error) => {
+        console.log(error)
+      })
+    }
+  },
+  head () {
+    return {
+      title: "mamasystems",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'MAMA systems homepage' }
+      ]
     }
   }
 }
@@ -106,6 +131,9 @@ export default {
 .affe
   background-image: url("/img/Affe.jpg")
   background-size: cover
+  min-height: 300px
+  height: 100%
+.done
   min-height: 300px
 .form
   background-color: #222428
