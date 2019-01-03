@@ -51,6 +51,8 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    // baseURL: "http://dings/",
+    browserBaseURL: process.env.NODE_ENV === 'production' ? 'https://mamasystems.de/' : 'http://127.0.0.1:3000/'
   },
 
   /*
