@@ -4,7 +4,10 @@
       nuxt
     footer
       v-container
-        span &copy; 2018 MAMA systems
+        span &copy; 2019 MAMA systems
+        div
+          nuxt-link(to="/imprint") Impressum
+          nuxt-link(to="/data") Datenschutzerlärung
 </template>
 
 <script>
@@ -25,4 +28,11 @@ h3, h1, h2
   padding-top: 1em
   margin-bottom: 1em
 
+footer
+  a
+    color: #000
+    margin-right: 10px
+    text-decoration: none
+    &:hover
+      text-decoration: underline
 </style>
