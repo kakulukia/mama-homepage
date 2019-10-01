@@ -26,22 +26,22 @@
         <strong>Datenverarbeitung auf unserer Website</strong>
         Bei jedem Aufruf und Nutzung unserer Website erheben wir die Zugriffsdaten, die Ihr Browser automatisch übersendet, um Ihnen den Besuch der Website zu ermöglichen. Die Zugriffsdaten umfassen insbesondere:
         • Zugriffsstatus (z. B. Datei übertragen, Datei nicht gefunden)
-        •	der von Ihnen verwendete Webbrowser und das Betriebssystem Ihres Gerätes
-        •	die IP-Adresse des anfordernden Gerätes
-        •	Datum und Uhrzeit des Zugriffs
-        •	Name der angeforderten Datei
-        •	Webseite, von der aus die Datei angefordert wurde
-        •	Online-Kennungen (z. B. Gerätekennungen, Session-IDs).
+        • der von Ihnen verwendete Webbrowser und das Betriebssystem Ihres Gerätes
+        • die IP-Adresse des anfordernden Gerätes
+        • Datum und Uhrzeit des Zugriffs
+        • Name der angeforderten Datei
+        • Webseite, von der aus die Datei angefordert wurde
+        • Online-Kennungen (z. B. Gerätekennungen, Session-IDs).
         Die Datenverarbeitung dieser Zugriffsdaten ist technisch erforderlich, um den Besuch der Website zu ermöglichen und um die dauerhafte Funktionsfähigkeit und Sicherheit unserer Systeme zu gewährleisten. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO. Aus Datenschutzgründen werden Logfiles bei uns nicht dauerhaft gespeichert oder analysiert.
 
         Wir bieten Ihnen über unser Kontaktformular die Möglichkeit, uns Mitteilungen direkt zu übermitteln. Dabei ist die von Ihnen vorzunehmende Angabe Ihrer E-Mail-Adresse erforderlich, unter der wir Sie sodann erreichen können. Wir erfragen außerdem Ihren Namen, um Sie ansprechen zu können. Die Pflichtfelder sind als solche gekennzeichnet. Wir verarbeiten die von Ihnen im Kontaktformular angegebenen Daten, um Ihre Anfrage zu beantworten. Rechtsgrundlage der beschriebenen Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO. Die bei der Verwendung des Kontaktformulars erhobenen Daten werden nach vollständiger Bearbeitung Ihrer Anfrage bzw. des Anliegens gelöscht, es sei denn, wir benötigen Ihre Anfrage noch zur Erfüllung vertraglicher oder gesetzlicher Pflichten.
 
         <strong>Umgang und Weitergabe von personenbezogenen Daten</strong>
         Eine Weitergabe der von uns erhobenen Daten erfolgt grundsätzlich nur, wenn:
-        •	wir nach Art. 6 Abs. 1 S. 1 lit. c DSGVO zur Weitergabe gesetzlich verpflichtet sind oder
-        •	Sie Ihre nach Art. 6 Abs. 1 S. 1 lit. a DSGVO Ihre ausdrückliche Einwilligung dazu erteilt haben,
-        •	die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse am Unterbleiben der Weitergabe Ihrer Daten haben oder
-        •	dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit Ihnen oder für die Durchführung vorvertraglicher Maßnahmen erforderlich ist, die auf Ihre Anfrage hin erfolgen.
+        • wir nach Art. 6 Abs. 1 S. 1 lit. c DSGVO zur Weitergabe gesetzlich verpflichtet sind oder
+        • Sie Ihre nach Art. 6 Abs. 1 S. 1 lit. a DSGVO Ihre ausdrückliche Einwilligung dazu erteilt haben,
+        • die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse am Unterbleiben der Weitergabe Ihrer Daten haben oder
+        • dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit Ihnen oder für die Durchführung vorvertraglicher Maßnahmen erforderlich ist, die auf Ihre Anfrage hin erfolgen.
         Ein Teil der Datenverarbeitung kann durch unsere Dienstleister erfolgen. Hierzu können insbesondere Rechenzentren, die unsere Website und Datenbanken speichern, IT-Dienstleister, die unsere Systeme warten, sowie Beratungsunternehmen gehören. Sofern wir Daten an unsere Dienstleister weitergeben, dürfen diese die Daten ausschließlich zur Erfüllung ihrer Aufgaben verwenden. Die Dienstleister wurden von uns sorgfältig ausgewählt und beauftragt. Sie sind vertraglich an unsere Weisungen gebunden, verfügen über geeignete technische und organisatorische Maßnahmen zum Schutz der Rechte der betroffenen Personen und werden von uns regelmäßig kontrolliert.
         Darüber hinaus kann eine Weitergabe in Zusammenhang mit behördlichen Anfragen, Gerichtsbeschlüssen und Rechtsverfahren erfolgen, wenn es für die Rechtsverfolgung oder -durchsetzung erforderlich ist.
 
