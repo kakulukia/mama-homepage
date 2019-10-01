@@ -9,7 +9,7 @@
         h1 Impressum
 
     v-container
-        v-flex(xs12 style='white-space:pre;').
+        v-flex(xs12 style='white-space:pre-wrap;').
           MAMA systems UG (haftungsbeschränkt)
           Niklasstraße 22, 14163 Berlin
           Geschäftsführer: Marco Held
@@ -17,7 +17,8 @@
           Telefonnummer: 033762217632
           E-Mail: mamaindustries4ever@gmail.com
 
-          Eingetragen beim Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 200378 B
+          Eingetragen beim Amtsgericht Charlottenburg (Berlin)
+          Aktenzeichen: HRB 200378 B
           Umsatzsteuer-ID: 29/431/31149
 
 
