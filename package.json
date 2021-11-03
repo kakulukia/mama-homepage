@@ -22,7 +22,7 @@
     "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "validator": "^10.10.0",
+    "validator": "^13.7.0",
     "vuetify": "^1.2.4",
     "xss-filters": "^1.2.7"
   },
