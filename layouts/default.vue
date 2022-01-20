@@ -4,7 +4,7 @@
       nuxt
     footer
       v-container
-        span &copy; 2019 MAMA systems
+        span &copy; 2022 MAMA systems
         div
           nuxt-link(to="/imprint") Impressum
           nuxt-link(to="/data") Datenschutzerlärung
@@ -24,15 +24,14 @@ export default {
   font-weight: 200
 
 h3, h1, h2
-  font-weight: 200
+  font-weight: 700
   padding-top: 1em
   margin-bottom: 1em
 
-footer
-  a
-    color: #000
-    margin-right: 10px
-    text-decoration: none
-    &:hover
-      text-decoration: underline
+a
+  color: #000
+  margin-right: 10px
+  text-decoration: none
+  &:hover
+    text-decoration: underline
 </style>

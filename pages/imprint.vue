@@ -15,7 +15,7 @@
           Geschäftsführer: Marco Held
 
           Telefonnummer: 033762217632
-          E-Mail: mamaindustries4ever@gmail.com
+          E-Mail: #[a(href="mailto:info@mamasystems.de") info@mamasystems.de]
 
           Eingetragen beim Amtsgericht Charlottenburg (Berlin)
           Aktenzeichen: HRB 200378 B
