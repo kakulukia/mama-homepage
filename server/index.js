@@ -26,6 +26,7 @@ app.post('/api/contact', function (req, res) {
     console.log(sanitizedAttributes)
     return res.status(422).json({ 'error': 'Ugh.. That looks unprocessable!' })
   }
+  console.log('all okay', sanitizedAttributes)
 
   sendMail(...sanitizedAttributes)
   res.status(200).json({ 'message': 'OH YEAH' })
@@ -58,12 +59,13 @@ const sendMail = (name, email, subject, message) => {
   //     pass: account.pass // generated ethereal password
   //   }
   // });
-  transporter.sendMail({
+  bums = transporter.sendMail({
     from: email,
     to: 'info@mamasystems.de',
     subject: 'Neue Kontaktanfrage: ' + subject,
     text: message
   })
+  console.log(bums)
 }
 
 async function start() {
