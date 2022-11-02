@@ -19,6 +19,19 @@ export default {
 </script>
 
 <style lang="sass">
+@font-face
+  font-family: 'Work Sans'
+  font-style: normal
+  font-weight: 200
+  src: url('/fonts/WorkSans-Light.ttf')
+
+@font-face
+  font-family: 'Work Sans'
+  font-style: bolder
+  font-weight: 500
+  src: url('/fonts/WorkSans-Regular.ttf')
+
+
 #app
   font-family: 'Work Sans', sans-serif
   font-weight: 200
